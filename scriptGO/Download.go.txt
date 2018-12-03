@@ -1,0 +1,12 @@
+
+https://golang.org/dl/
+1.
+for example : 
+### note : use the amd64 , then all ok. 
+### if use 386 , some package "github.com/derekparker/delve/cmd/dlv" will not work at 32 bit version
+##### https://dl.google.com/go/go1.10.2.linux-386.tar.gz
+https://dl.google.com/go/go1.10.2.linux-amd64.tar.gz
+
+2.
+(mkdir 111)
+( cd 111 && tar xfz ../go1.10.2.linux-amd64.tar.gz)
