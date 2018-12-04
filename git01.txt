@@ -1,0 +1,18 @@
+#!/bin/sh
+
+echo "# bug01 : sound only " >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/youtube01/bug01.git
+git push -u origin master
+
+### git remote set-url origin git@github.com:username/repo.git
+### git remote set-url origin https://name:password@github.org/repo.git
+
+
+~/.netrc 
+
+machine github.com
+    login <user>
+    password <password>
