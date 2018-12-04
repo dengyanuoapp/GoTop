@@ -7,4 +7,4 @@ up:
 gs :
 	git status
 gc :
-	git commit
+	git commit -a
