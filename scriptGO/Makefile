@@ -1,4 +1,7 @@
 all:
+	@echo
+	@echo "aaa : $(aaa)"
+	@echo
 
 m:
 	vim Makefile
@@ -17,11 +20,20 @@ aa3:
 	go get -u  -v  v2ray.com/core/
 aa4:
 	go get -u  -v  v2ray.com/ext/
-	go install v2ray.com/ext/tools/build/vbuild
+	-go install v2ray.com/ext/tools/build/vbuild
 	go get -u  -v github.com/xtaci/kcptun/client
 aa5:
 	go get -u  -v github.com/xtaci/kcptun/server
 	go get -u  -v github.com/jpillora/chisel
 	go get -u  -v github.com/eiannone/keyboard
+aa6:
+	go get -u -v github.com/ginuerzh/gost/cmd/gost
+aa7:
+	go get -u -v github.com/ginuerzh/gosocks5
 
-aaa : aa1 aa2 aa3 aa4 aa5
+c :clean
+clean:
+	rm -fr ../GOPATH/src/*
+
+aaa := aa1 aa2 aa3 aa4 aa5 aa6
+aaa:$(aaa)
