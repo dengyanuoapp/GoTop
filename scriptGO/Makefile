@@ -30,6 +30,8 @@ aa6:
 	go get -u -v github.com/ginuerzh/gost/cmd/gost
 aa7:
 	go get -u -v github.com/ginuerzh/gosocks5
+aa8:
+	go get -u -v golang.org/x/mobile/cmd/gomobile
 
 c :clean
 clean:
