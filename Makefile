@@ -8,3 +8,5 @@ gs :
 	git status
 gc :
 	git commit -a
+gd:
+	git diff

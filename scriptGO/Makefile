@@ -7,7 +7,9 @@ m:
 	vim Makefile
 	
 aa1:
-	go get -u  -v  golang.org/x/tour/gotour
+#	go get -u  -v  golang.org/x/tour/gotour
+#	golang.org/x/tour/gotour has moved to golang.org/x/tour
+	go get -u  -v  golang.org/x/tour
 	go get -u  -v  github.com/bigeagle/gohop
 	go get -u  -v  golang.org/x/oauth2
 aa2:

@@ -51,11 +51,26 @@ xx2=$(basename ${pp5})
 xx4=$(${RR1} ${RR2}  ${xx1}/../ )
 xx5=$(${RR1} ${RR2}  ${xx1}/../../GOPATH )
 
+if [ "${V}" != '' ] 
+then
+    echo "pp1=${pp1}"
+    echo "pp2=${pp2}"
+    echo "pp3=${pp3}"
+    echo "pp4=${pp4}"
+    echo "pp5=${pp5}"
+    echo "pp9=${pp9}"
+
+    echo "xx1=${xx1}"
+    echo "xx2=${xx2}"
+    echo "xx4=${xx4}"
+    echo "xx5=${xx5}"
+fi
+
 [ "${V}" = '' ] || echo "export GOROOT=${xx4}"
-                          export GOROOT=${xx4}
+                         export GOROOT=${xx4}
 
 [ "${V}" = '' ] || echo "export GOPATH=${xx5}"
-                          export GOPATH=${xx5}
+                         export GOPATH=${xx5}
 
 [ "${V}" = '' ] || echo "${xx1}/${pp9}   $*"
-                          ${xx1}/${pp9}   $*
+                         ${xx1}/${pp9}   $*
