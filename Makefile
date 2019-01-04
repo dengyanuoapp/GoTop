@@ -3,6 +3,8 @@ all:
 	@echo
 	@echo "$${show_help_text}"
 	@echo
+	@echo $(realpath now_dir__)
+	@echo
 
 m:
 	vim Makefile

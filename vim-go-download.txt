@@ -1,0 +1,10 @@
+https://github.com/fatih/vim-go
+1.
+cd /home/bootH/vimDIR/pack/plugins/start/
+git clone https://github.com/fatih/vim-go.git
+
+2.
+make sure :
+/home/bootH/vimDIR/pack/plugins/start/vim-go 
+link to :
+~/.vim/pack/plugins/start/vim-go
