@@ -62,6 +62,8 @@ aa11:
 	go get -u -v 	github.com/alecthomas/gometalinter
 aa12:
 	go get -u -v 		github.com/fogleman/gg
+aa13:
+	go get -u -v 		github.com/tfriedel6/canvas
 
 #aa11:
 #	go get -u -v golang.org/x/mobile
